@@ -3,7 +3,7 @@
 
 arr_emails = []
 
-i = 00
+i = 0
 50.times do   
     if i < 10 
         email = "jean.dupont.0"+i.to_s+"@email.fr" 
@@ -14,5 +14,4 @@ i = 00
     i+=1
 end
 
-prints arr_emails
-return arr_emails
+print arr_emails
