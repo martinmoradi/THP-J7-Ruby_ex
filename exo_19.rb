@@ -15,7 +15,6 @@ new_arr = []
 arr_emails.each do |mail|
     parts = mail.split("@")
     firstPart = parts[0]
-    secondPart = parts[1]
     number = firstPart[-1].to_i
     if number.even?
      new_arr << mail
