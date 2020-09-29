@@ -3,4 +3,4 @@
 user_name = gets.chomp
 puts user_name
 
-#This program does not tell the user that it is waiting for the input. 
+# This program does not tell the user that it is waiting for the input. 
